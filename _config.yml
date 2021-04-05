@@ -271,7 +271,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "/_posts/2021-04-05-Site Upgraded.md"
+      path: ""  #/_posts/2021-04-05-Site Upgraded.md
       type: posts
     values:
       layout: single
@@ -284,7 +284,7 @@ defaults:
 defaults:
   # _pages
   - scope:
-      path: ""
+      path: "/_pages/about.md"
       type: pages
     values:
       layout: single
